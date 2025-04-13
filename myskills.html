@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Skills</title>
+    <!-- Link to FontAwesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Base Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #a46a6a; /* Dark shade for background */
+            color: #e0e0e0; /* Light text for contrast */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .skills-section {
+            max-width: 900px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .skills-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #f5f5f5; /* Subtle white for the heading */
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skill-badge {
+            display: flex;
+            align-items: center;
+            gap: 10px; /* Space between icon and text */
+            background: #4d5053; /* Medium-dark shade for badges */
+            color: #ffffff; /* White text for skills */
+            border: 2px solid #444; /* Subtle border for texture */
+            padding: 15px 25px;
+            font-size: 1em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .skill-badge:hover {
+            transform: scale(1.1); /* Slightly enlarge on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); /* Enhanced shadow on hover */
+            background: #333; /* Slightly lighter background on hover */
+        }
+
+        .skill-badge:active {
+            transform: scale(1.05); /* Slightly reduce size on click */
+            background: #444; /* Darker shade for click effect */
+        }
+
+        .skill-icon {
+            font-size: 1.5em; /* Icon size */
+        }
+    </style>
+</head>
+<body>
+    <div class="skills-section">
+        <h1>Technical Skills</h1>
+        <div class="skills-container">
+            <div class="skill-badge">
+                <i class="fas fa-chart-pie skill-icon"></i> Power BI
+            </div>
+            <div class="skill-badge">
+                <i class="fas fa-chart-line skill-icon"></i> Tableau
+            </div>
+            <div class="skill-badge">
+                <i class="fab fa-python skill-icon"></i> MySQL
+            </div>
+            <div class="skill-badge">
+                <i class="fas fa-database skill-icon"></i> Python
+            </div>
+            <div class="skill-badge">
+                <i class="fas fa-file-excel skill-icon"></i> MS Excel
+            </div>
+            <div class="skill-badge">
+                <i class="fas fa-file-powerpoint skill-icon"></i> MS Powerpoint
+            </div>
+            <div class="skill-badge">
+                <i class="fas fa-file-word skill-icon"></i> MS Powerpoint
+            </div>
+            <div class="skill-badge">
+                <i class="fab fa-html5 skill-icon"></i> HTML5
+            </div>
+            <div class="skill-badge">
+                <i class="fab fa-css3-alt skill-icon"></i> CSS3
+            </div>
+            <div class="skill-badge">
+                <i class="fab fa-js skill-icon"></i> JavaScript
+            </div>
+            <div class="skill-badge">
+                <i class="fab fa-github skill-icon"></i> Git & GitHub
+            </div>
+        </div>
+    </div>
+</body>
+</html>
